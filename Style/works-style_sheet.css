@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Sono&display=swap");
+:root {
+  --green-text: #14cf93;
+  --bg-color: #fcfaf8;
+  --text-color1: #414141;
+  --text-color2: #383838;
+  --javablue: #5382a1;
+  --javaorange: #e76f00;
+  --selegreen: #43b02a;
+  --mysqlblue: #00758f;
+  --mysqlorange: #f29221;
+  --jsyellow: #fcdc00;
+  --ps-bg-color: #18152e;
+  --ps-text-color: #4fccfe;
+  --ill-bg-color: #3c240c;
+  --ill-text-color: #f8a829;
+  --design-bg-color: #425168;
+  --edit-bg-color: #c1765f;
+  --edit-text-color: #efe3d3;
+  --QA-bg-color: #aedae7;
+  --QA-text-color: #ed5e3c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sono", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+}
+
+.work-container {
+  position: relative;
+  top: 100px;
+  z-index: 1;
+}
+.box {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  z-index: 2;
+}
+
+.box .holder {
+  position: relative;
+  display: flex;
+  width: 500px;
+  height: 400px;
+  border-radius: 25px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  z-index: 3;
+}
+
+.holder img {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  transition: all 0.5s ease;
+  transform: scale(1);
+  z-index: 3;
+}
+
+.holder .content {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  z-index: 3;
+}
+
+.holder .content h3 {
+  position: absolute;
+  top: 250px;
+  z-index: 5;
+  color: var(--bg-color);
+}
+.holder .content p {
+  position: absolute;
+  top: 300px;
+  text-align: left;
+  text-transform: uppercase;
+  z-index: 5;
+  color: var(--bg-color);
+}
+
+.holder .content * {
+  transform: translateY(70%);
+  transform: translateZ(0px);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.holder .sample-links {
+  transform: translateY(70%);
+  transform: translateZ(0px);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.holder:hover {
+  background-color: rgba(56, 56, 56, 1);
+  box-shadow: 0px 10px 15px -3px rgba(56, 56, 56, 0.6);
+}
+
+.holder img:hover {
+  transform: scale(1.1);
+  opacity: 0.2;
+  transition: all 0.5s ease;
+}
+
+.holder div:hover .content {
+  opacity: 1;
+}
+
+.holder:hover .content * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.holder:hover .sample-links {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sample-links {
+  position: relative;
+  top: 100px;
+  display: flex;
+  left: 33%;
+  gap: 10px;
+  z-index: 5;
+}
+
+.sample-links a {
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  font-size: 3vh;
+  text-decoration: none;
+  color: var(--text-color2r);
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border-radius: 25px;
+}
+
+.sample-links a:hover {
+  color: var(--green-text);
+  background-color: var(--text-color2);
+}
