@@ -721,7 +721,7 @@ a.active {
 @media only screen and (min-width: 1024px) {
   .contact-container {
     position: fixed;
-    top: 72vh;
+    top: 70vh;
     padding: 10px;
     z-index: 5;
     background: transparent;
@@ -750,7 +750,7 @@ a.active {
 @media only screen and (min-width: 1200px) {
   .contact-container {
     position: fixed;
-    top: 72vh;
+    top: 70vh;
     padding: 10px;
     z-index: 5;
     background: transparent;
@@ -779,7 +779,7 @@ a.active {
 @media only screen and (min-width: 1340px) {
   .contact-container {
     position: fixed;
-    top: 72vh;
+    top: 70vh;
     padding: 10px;
     z-index: 5;
     background: transparent;
