@@ -762,35 +762,6 @@ a.active {
   .cardholder {
     position: fixed;
     padding: 10px;
-    top: 89vh;
-    z-index: 5;
-  }
-
-  .quote {
-    width: 83%;
-  }
-
-  #quote {
-    position: relative;
-    top: -10px;
-  }
-}
-
-@media only screen and (max-width: 1340px) {
-  .contact-container {
-    position: fixed;
-    top: 68vh;
-    padding: 10px;
-    z-index: 5;
-    background: transparent;
-  }
-  .contact-container a {
-    text-decoration: none;
-  }
-
-  .cardholder {
-    position: fixed;
-    padding: 10px;
     top: 90vh;
     z-index: 5;
   }
