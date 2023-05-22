@@ -747,40 +747,6 @@ a.active {
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  .contact-container {
-    position: fixed;
-    top: 68vh;
-    padding: 10px;
-    z-index: 5;
-    background: transparent;
-  }
-  .contact-container a {
-    text-decoration: none;
-  }
-
-  .cardholder {
-    position: fixed;
-    padding: 10px;
-    top: 90vh;
-    z-index: 5;
-  }
-  
-  .name_bar #role {
-  position: absolute;
-  top: 300px;
-  color: var(--green-text);
-  white-space: nowrap;
-  font-size: 8vw;
-  user-select: none;
-}
-
-  #quote {
-    position: relative;
-    top: 0px;
-  }
-}
-
 @media only screen and (max-width: 640px) {
   header {
     padding: 0px 10px;
