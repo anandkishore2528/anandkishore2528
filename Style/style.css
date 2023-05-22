@@ -718,10 +718,10 @@ a.active {
   top: -10px;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .contact-container {
     position: fixed;
-    top: 70vh;
+    top: 68vh;
     padding: 10px;
     z-index: 5;
     background: transparent;
@@ -747,10 +747,10 @@ a.active {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .contact-container {
     position: fixed;
-    top: 70vh;
+    top: 68vh;
     padding: 10px;
     z-index: 5;
     background: transparent;
@@ -779,7 +779,7 @@ a.active {
 @media only screen and (max-width: 1340px) {
   .contact-container {
     position: fixed;
-    top: 70vh;
+    top: 68vh;
     padding: 10px;
     z-index: 5;
     background: transparent;
@@ -797,7 +797,7 @@ a.active {
   
   .name_bar #role {
   position: absolute;
-  top: 320px;
+  top: 300px;
   color: var(--green-text);
   white-space: nowrap;
   font-size: 8vw;
